@@ -399,6 +399,7 @@ template {
   outline: none;
   font-size: 12px;
   line-height: 15px;
+  color: #333333;
 }
 
 .search__button {
@@ -434,5 +435,6 @@ template {
   margin-left: 18px;
   font-size: 14px;
   line-height: 18px;
+  color: #333333;
 }
 /*# sourceMappingURL=style.css.map */
