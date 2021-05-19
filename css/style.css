@@ -493,8 +493,8 @@ template {
     width: 132px;
   }
   .navbar-top {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 26px;
+    padding-bottom: 26px;
   }
   .navbar__search {
     margin-left: auto;
@@ -515,7 +515,7 @@ template {
 @media (max-width: 768px) {
   .container {
     max-width: 576px;
-    width: 92%;
+    width: 93%;
   }
   .navbar__search, .navbar-menu, .navbar__user {
     display: none;
@@ -550,6 +550,9 @@ template {
 }
 
 @media (max-width: 576px) {
+  .container {
+    width: 87%;
+  }
   .logo {
     width: 99px;
   }
