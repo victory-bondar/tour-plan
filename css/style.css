@@ -577,6 +577,7 @@ template {
 .offer {
   font-size: 10px;
   line-height: 13px;
+  font-weight: 600;
   padding: 4px 9px;
   background-color: #EC1F46;
   border-radius: 3px;
@@ -595,11 +596,13 @@ template {
 .rating__text {
   font-size: 8px;
   line-height: 10px;
+  font-weight: 600;
 }
 
 .rating__counter {
-  font-size: 10px;
-  line-height: 13px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
 }
 
 @media (max-width: 1200px) {
