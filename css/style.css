@@ -643,6 +643,7 @@ template {
   width: 30px;
   height: 30px;
   border: none;
+  outline: none;
   cursor: pointer;
   background-repeat: no-repeat;
   background-position: center;

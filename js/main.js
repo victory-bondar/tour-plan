@@ -10,4 +10,10 @@ const swiper = new Swiper('.swiper-container', {
 
   // Effect
   effect: "coverflow",
+
+  //Keyboard arrows
+  keyboard: {
+    enabled: "true",
+    onlyInViewport: "true",
+  },
 });
