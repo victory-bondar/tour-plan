@@ -629,6 +629,11 @@ template {
   width: 728px;
 }
 
+.slider img {
+  width: 100%;
+  height: 100%;
+}
+
 .slider-button {
   position: absolute;
   top: 50%;
@@ -776,6 +781,8 @@ template {
   }
   .slider-button {
     background-size: 4px;
+    width: 12px;
+    height: 12px;
   }
   .slider-button--next {
     right: 10px;
