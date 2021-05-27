@@ -626,7 +626,7 @@ template {
 }
 
 .slider {
-  width: 720px;
+  width: 728px;
 }
 
 .slider-button {
@@ -688,6 +688,9 @@ template {
   }
   .hotel {
     padding-bottom: 60px;
+  }
+  .slider {
+    width: 700px;
   }
 }
 
@@ -763,6 +766,22 @@ template {
         -ms-flex-order: -1;
             order: -1;
     margin-left: 0;
+  }
+  .swiper-container {
+    height: 179px;
+  }
+  .slider {
+    width: 278px;
+    margin-top: 18px;
+  }
+  .slider-button {
+    background-size: 4px;
+  }
+  .slider-button--next {
+    right: 10px;
+  }
+  .slider-button--prev {
+    left: 10px;
   }
 }
 
