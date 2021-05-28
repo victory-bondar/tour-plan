@@ -1,8 +1,9 @@
 @media (max-width: 1200px)
   .container
     max-width: 960px
-  .slider
-    width: 590px
+  .hotel
+    &-slider
+      width: 590px
 
 @media (max-width: 992px)
   .container, .newsletter-wrapper
@@ -30,14 +31,23 @@
       flex-direction: column
     &__slider
       margin-bottom: 30px
+    &-slider
+      width: 100%
     &-right
       flex-direction: row
-  .slider
-    width: 100%
   .booking
     width: 340px
   .map
     width: 340px
+  .newsletter
+    padding: 92px 0
+  .reviews
+    &-slider
+      &__item
+        max-width: 580px
+    &__title
+      font-size: 30px
+      line-height: 37px
 
 @media (max-width: 767px)
   .container
@@ -90,49 +100,68 @@
     &-right
       flex-direction: column
       min-height: 450px
-
-  .swiper-container
-    height: 350px
-  .slider
-    width: 100%
-    margin-top: 18px
+    &-slider
+      width: 100%
+      margin-top: 18px
+      &__item
+        height: 350px
   .booking
     width: 100%
   .map
     width: 100%
   .newsletter
+    padding: 76px 0 83px 0
     &-wrapper
       flex-direction: column
       align-items: flex-start
       max-width: 576px
       width: 93%
-      padding: 92px 0
+    &-title
+      &__strong
+        margin-top: 5px
+  .reviews
+    &-slider
+      &__item
+        padding: 0 30px 30px
+        &:after, &:before
+          display: none
+      &__button
+        top: 32px
+        &--prev
+          left: 50%
+          transform: translate(-50%, 0)
+          margin-left: -65px
+        &--next
+          right: 50%
+          transform: translate(50%, 0)
+          margin-right: -65px
+    &__title
+      font-size: 18px
+      line-height: 23px
 
 @media (max-width: 576px)
   .container
     width: 87%
   .logo
     width: 99px
-  .swiper-container
-    height: 250px
   .hotel
     &__slider
       margin-bottom: 20px
-  .slider
-    &-button
-      background-size: 4px
-      width: 12px
-      height: 12px
-      &--next
-        right: 10px
-      &--prev
-        left: 10px
+    &-slider
+      &__item
+        height: 250px
+      &__button
+        background-size: 4px
+        width: 12px
+        height: 12px
+        &--next
+          right: 10px
+        &--prev
+          left: 10px
   .newsletter
-    padding: 76px 0 83px 0
     &-title
       font-size: 20px
       line-height: 25px
-      margin-bottom: 5px
       &__strong
         font-size: 30px
         line-height: 37px
