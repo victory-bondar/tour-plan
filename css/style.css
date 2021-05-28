@@ -880,6 +880,7 @@ template {
 }
 
 .newsletter-title__strong {
+  font-weight: 600;
   font-size: 36px;
   line-height: 45px;
   text-transform: uppercase;
@@ -887,7 +888,7 @@ template {
 
 .subscribe {
   position: relative;
-  width: 355px;
+  width: 350px;
   height: 55px;
   border-radius: 4px;
   overflow: hidden;
@@ -917,6 +918,10 @@ template {
   outline: none;
   background-color: #EC1F46;
   color: #fff;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 12px;
+  line-height: 15px;
 }
 
 @media (max-width: 1200px) {
@@ -1085,6 +1090,7 @@ template {
             align-items: flex-start;
     max-width: 576px;
     width: 93%;
+    padding: 92px 0;
   }
 }
 
@@ -1114,6 +1120,15 @@ template {
   }
   .newsletter {
     padding: 76px 0 83px 0;
+  }
+  .newsletter-title {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 5px;
+  }
+  .newsletter-title__strong {
+    font-size: 30px;
+    line-height: 37px;
   }
   .newsletter__title {
     margin-bottom: 37px;
