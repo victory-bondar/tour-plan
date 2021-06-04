@@ -1117,7 +1117,7 @@ template {
 
 .card:before {
   content: '';
-  position: absolite;
+  position: absolute;
   left: 0;
   right: 0;
   top: 0;
@@ -1465,6 +1465,26 @@ template {
   }
   .card {
     width: 100%;
+  }
+  .card-1 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .card-2 {
+    -webkit-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+  }
+  .card-3 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .card-4 {
+    -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+            order: 4;
   }
 }
 /*# sourceMappingURL=style.css.map */
