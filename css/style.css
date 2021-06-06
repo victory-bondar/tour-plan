@@ -1201,6 +1201,11 @@ template {
   grid-row: 1 / 4;
 }
 
+.footer__legal {
+  -ms-grid-column-align: end;
+      justify-self: end;
+}
+
 .footer__social-links {
   display: -webkit-box;
   display: -ms-flexbox;
