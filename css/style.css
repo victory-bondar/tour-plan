@@ -1201,11 +1201,6 @@ template {
   grid-row: 1 / 4;
 }
 
-.footer__legal {
-  -ms-grid-column-align: end;
-      justify-self: end;
-}
-
 .footer__social-links {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1277,7 +1272,11 @@ template {
   margin: 0 43px 0 0;
 }
 
-.footer__title--mb-3 {
+.footer__title--contact {
+  margin-bottom: 30px;
+}
+
+.footer__title--message {
   margin-bottom: 30px;
 }
 
@@ -1505,16 +1504,21 @@ template {
     width: 339px;
     height: 255px;
   }
+  .footer {
+    padding-top: 73px;
+    padding-bottom: 33px;
+  }
   .footer-wrapper {
     -ms-grid-columns: (1fr)[6];
         grid-template-columns: repeat(6, 1fr);
-    grid-grow-gap: 40px;
+    grid-gap: 40px;
   }
   .footer__input {
     -ms-flex-preferred-size: 49%;
         flex-basis: 49%;
   }
   .footer__logo {
+    width: 104px;
     -ms-grid-row: 1;
     -ms-grid-row-span: 1;
     grid-row: 1 / 2;
@@ -1550,6 +1554,9 @@ template {
     grid-column: span 5;
     -ms-grid-row: 4;
     grid-row: 4;
+  }
+  .cards {
+    margin-top: 56px;
   }
 }
 
@@ -1786,9 +1793,14 @@ template {
         -ms-flex-order: 4;
             order: 4;
   }
+  .footer {
+    padding-top: 69px;
+    padding-bottom: 21px;
+  }
   .footer-wrapper {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
+    grid-gap: 30px;
   }
   .footer__logo {
     -ms-grid-row: 1;
@@ -1831,6 +1843,56 @@ template {
     grid-row: 7;
     -ms-grid-column: 1;
     grid-column: 1;
+  }
+  .footer__title--contact {
+    margin-top: 10px;
+  }
+  .footer__title--message {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .footer__input {
+    width: 281px;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  .footer__message {
+    width: 281px;
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    margin-bottom: 15px;
+  }
+  .footer__contacts-input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer__info {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    margin-bottom: 15px;
+  }
+  .footer__button {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .footer__cards {
+    margin-top: 10px;
+  }
+  .cards {
+    margin-top: 30px;
+  }
+  .cards-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=style.css.map */

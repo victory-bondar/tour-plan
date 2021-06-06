@@ -67,12 +67,15 @@
     width: 339px
     height: 255px
   .footer
+    padding-top: 73px
+    padding-bottom: 33px
     &-wrapper
       grid-template-columns: repeat(6, 1fr)
-      grid-grow-gap: 40px
+      grid-gap: 40px
     &__input
       flex-basis: 49%
     &__logo
+      width: 104px
       grid-row: 1 / 2
       grid-column: span 2
     &__categories
@@ -94,6 +97,8 @@
       &-form
         grid-column: span 5
         grid-row: 4
+  .cards
+    margin-top: 56px
 
 @media (max-width: 767px)
   .container
@@ -254,8 +259,11 @@
   .card-4
     order: 4
   .footer
+    padding-top: 69px
+    padding-bottom: 21px
     &-wrapper
       grid-template-columns: 1fr
+      grid-gap: 30px
     &__logo
       grid-row: 1
       grid-column: 1
@@ -279,3 +287,31 @@
       &-form
         grid-row: 7
         grid-column: 1
+    &__title
+      &--contact
+        margin-top: 10px
+      &--message
+        margin-top: 10px
+        margin-bottom: 15px
+    &__input
+      width: 281px
+      flex-basis: 100%
+    &__message
+      width: 281px
+      flex-basis: 100%
+      margin-bottom: 15px
+    &__contacts
+      &-input
+        display: flex
+        flex-direction: column
+    &__info
+      order: -1
+      margin-bottom: 15px
+    &__button
+      order: 1
+    &__cards
+      margin-top: 10px
+  .cards
+    margin-top: 30px
+    &-wrapper
+      flex-direction: column
