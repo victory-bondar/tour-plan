@@ -1253,6 +1253,18 @@ template {
   line-height: 15px;
 }
 
+.footer__contacts-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .footer__ul {
   padding: 0;
   margin: 0;
@@ -1863,9 +1875,9 @@ template {
     margin-bottom: 15px;
   }
   .footer__contacts-input {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
