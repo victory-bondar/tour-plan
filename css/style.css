@@ -508,7 +508,7 @@ template {
 }
 
 .hotel {
-  padding-top: 23px;
+  padding-top: 24px;
   padding-bottom: 70px;
 }
 
@@ -832,7 +832,7 @@ template {
 
 .newsletter {
   position: relative;
-  padding: 98px 0 87px 0;
+  padding: 100px 0 90px 0;
   max-height: 260px;
   background-image: url(../img/newsletter-bg.jpg);
   background-repeat: no-repeat;
@@ -935,9 +935,9 @@ template {
 
 .reviews__title {
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
-  line-height: 45px;
+  line-height: 46px;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 70px;
@@ -1074,14 +1074,14 @@ template {
 }
 
 .activities {
-  padding: 60px 0 98px 0;
+  padding: 61px 0 100px 0;
 }
 
 .activities__title {
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  line-height: 30px;
+  line-height: 31px;
   text-transform: uppercase;
   margin-top: 0;
   margin-bottom: 57px;
@@ -1186,7 +1186,7 @@ template {
 }
 
 .footer__logo {
-  width: 166px;
+  width: 156px;
   -ms-flex-item-align: stretch;
       -ms-grid-row-align: stretch;
       align-self: stretch;
@@ -1196,9 +1196,21 @@ template {
 }
 
 .footer__categories {
+  margin-left: 20px;
+  width: 156px;
   -ms-grid-row: 1;
   -ms-grid-row-span: 3;
   grid-row: 1 / 4;
+}
+
+.footer__additional {
+  margin-left: 45px;
+  width: 251px;
+}
+
+.footer__legal {
+  margin-left: 70px;
+  width: 195px;
 }
 
 .footer__social-links {
@@ -1215,6 +1227,7 @@ template {
 }
 
 .footer__social-network {
+  margin-left: 45px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1251,6 +1264,7 @@ template {
   font-style: normal;
   font-weight: 400;
   line-height: 15px;
+  margin-left: 45px;
 }
 
 .footer__contacts-input {
@@ -1285,11 +1299,13 @@ template {
 }
 
 .footer__title--contact {
+  margin-top: 10px;
   margin-bottom: 30px;
 }
 
 .footer__title--message {
-  margin-bottom: 30px;
+  margin-left: 45px;
+  margin-bottom: 35px;
 }
 
 .footer__item {
@@ -1335,6 +1351,7 @@ template {
   border: none;
   outline: none;
   padding: 0 23px;
+  width: 255px;
   height: 50px;
   margin-bottom: 15px;
   -ms-flex-preferred-size: 48%;
@@ -1363,6 +1380,7 @@ template {
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
+  margin-left: 45px;
   color: #fff;
   background-color: #EC1F46;
   border: none;
