@@ -7,11 +7,13 @@
   &-wrapper
     display: grid
     grid-template-columns: repeat(4, minmax(min-content, 1fr))
-    grid-gap: 20px
+    grid-gap: 19px
     grid-auto-rows: minmax(40px, min-content)
     align-items: start
   &__logo
     width: 156px
+    text-decoration: none
+    margin-top: 25px
     align-self: stretch
     grid-row: 1 / 3
   &__categories
@@ -71,7 +73,7 @@
       margin: 0 43px 0 0
     &--contact
       margin-top: 10px
-      margin-bottom: 30px
+      margin-bottom: 23px
     &--message
       margin-left: 45px
       margin-bottom: 35px
@@ -83,6 +85,7 @@
     font-size: 14px
     line-height: 160%
     color: $footer-text-color
+    text-decoration: none
     &--mb-2
       margin-bottom: 21px
   &__icon
