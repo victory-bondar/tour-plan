@@ -1283,6 +1283,7 @@ template {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  width: 100%;
 }
 
 .footer__ul {
@@ -1387,7 +1388,6 @@ template {
   font-weight: bold;
   font-size: 12px;
   line-height: 15px;
-  margin-left: 45px;
   color: #fff;
   background-color: #EC1F46;
   border: none;
