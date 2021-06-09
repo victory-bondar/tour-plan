@@ -2038,6 +2038,7 @@ template {
   .footer__title--message {
     margin-top: 10px;
     margin-bottom: 15px;
+    width: 189px;
   }
   .footer__input {
     width: 281px;
