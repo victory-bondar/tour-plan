@@ -1646,10 +1646,11 @@ template {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    margin-top: -20px;
   }
   .navbar__search_mobile_visible {
     width: 243px;
-    margin-bottom: 37px;
+    margin-bottom: 20px;
   }
   .navbar__user {
     -webkit-box-orient: vertical;
@@ -1679,7 +1680,7 @@ template {
             flex-direction: column;
   }
   .navbar-menu__item {
-    margin-bottom: 20px;
+    margin-bottom: 17px;
   }
   .navbar-menu__item__mobile_visible {
     display: block;
@@ -1719,7 +1720,7 @@ template {
     color: #fff;
     margin-left: 0;
     margin-top: 10px;
-    margin-bottom: 15px;
+    margin-bottom: 27px;
   }
   .hotel {
     padding-top: 5px;
