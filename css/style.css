@@ -693,6 +693,10 @@ template {
   background-image: url(../img/arrow-prev.svg);
 }
 
+.hotel__btn {
+  margin-bottom: 20px;
+}
+
 .offer {
   font-size: 10px;
   line-height: 13px;
