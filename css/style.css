@@ -49,6 +49,12 @@ img {
   border: none;
   outline: none;
   border-radius: 4px;
+  cursor: pointer;
+}
+
+.invalid {
+  color: #EC1F46;
+  border-bottom: 1px solid #EC1F46;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -1391,7 +1397,10 @@ template {
 }
 
 .footer__input {
-  width: 255px;
+  width: 100%;
+}
+
+.footer__input-group {
   margin-bottom: 15px;
   -ms-flex-preferred-size: 48%;
       flex-basis: 48%;
@@ -1514,7 +1523,7 @@ template {
 
 .modal__input {
   width: 100%;
-  margin-bottom: 15px;
+  margin-top: 15px;
   font-family: Mulish;
   font-size: 12px;
   font-style: normal;
@@ -1525,7 +1534,7 @@ template {
 .modal__message {
   width: 100%;
   min-height: 123px;
-  margin-bottom: 15px;
+  margin-top: 15px;
   font-family: Mulish;
   font-size: 12px;
   font-style: normal;
@@ -1539,6 +1548,10 @@ template {
   font-size: 12px;
   line-height: 15px;
   color: #E0E0E0;
+}
+
+.modal__button {
+  margin-top: 15px;
 }
 
 .modal__contacts-input {
